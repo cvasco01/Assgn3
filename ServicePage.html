@@ -3,27 +3,32 @@
   <head>
     <meta charset="utf-8" name="Description" content="This is the service page for my dog washing buisness">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Service Page</title>
 
-      <link rel="stylesheet" type="text/css" href="styleExt.css"/>
+    <link rel="stylesheet" type="text/css" href="styleExt.css"/>
 
       <style type="text/css">
 
         .flexbox-container{
             display: flex;
-            height:450px;
+            height:100%;
             flex-direction:row;
-            justify-content: space-between;}
+            justify-content: space-between;
+            clear:both;
+        }
 
         .flexbox-item-1{
             padding:0px 10px 10px 10px;
             flex-grow:1;
-            background-color: lightgrey;}
+            width:40%;
+            background-color: lightgrey;
+        }
 
         .flexbox-item-2{
             border:0px solid white;
             flex-grow:1;
+            width:40%;
             background-color:#C5B5AE;
             padding:0px 10px 10px 10px; }
 
@@ -32,16 +37,19 @@
         font-size: 20px;
         padding:0;
         line-height:200%;
+
         }
-        
-        
-        @media screen and (max-width: 600px){
-      		#page-container {display:block}
-            html,body {font-size: 10px;}
-      	     #footer, #header,#content,#navigation {display:block;}
-      		#main{flex-grow: unset; margin: 0;}
-      	}
-        
+
+                @media screen and (max-width: 600px)
+              {
+                  #page-container {display:block}
+                  html,body {font-size: 10px;}
+                   #footer, #header,#content,#navigation {display:block;}
+                   .flexbox-container {display:block}
+                  #main{flex-grow: unset; margin: 0;}
+              }
+
+
       </style>
     </head>
 <!--================================MENU=====================================-->
