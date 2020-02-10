@@ -13,9 +13,9 @@ a{
   display: flex;
   flex-direction: column;
   flex-grow: 1
-  width:auto;
-  margin-left:150px;
-  margin-right:150px;
+  width:100%;
+  margin-left:17%;
+  margin-right:17%;
 }
 #header{
   background-color:#E4EDF2;
@@ -55,6 +55,7 @@ a{
   padding:20px;
   margin: 10px 23px 20px 20px;
   float:left;
+  clear:both;
 }
 
 #footer{
