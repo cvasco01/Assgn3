@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" name="Description" content="This is the service page for my dog washing buisness">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Service Page</title>
 
       <link rel="stylesheet" type="text/css" href="styleExt.css"/>
@@ -31,6 +33,15 @@
         padding:0;
         line-height:200%;
         }
+        
+        
+        @media screen and (max-width: 600px){
+      		#page-container {display:block}
+            html,body {font-size: 10px;}
+      	     #footer, #header,#content,#navigation {display:block;}
+      		#main{flex-grow: unset; margin: 0;}
+      	}
+        
       </style>
     </head>
 <!--================================MENU=====================================-->
