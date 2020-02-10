@@ -2,10 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8" name="Description" content="This is the service page for my dog washing buisness">
-
     <title>Service Page</title>
 
-    <link rel="stylesheet" type="text/css" href="styleEXT.css"/>
+      <link rel="stylesheet" type="text/css" href="styleExt.css"/>
 
       <style type="text/css">
 
