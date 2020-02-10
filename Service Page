@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" name="Description" content="This is the service page for my dog washing buisness">
+
+    <title>Service Page</title>
+
+    <link rel="stylesheet" type="text/css" href="styleEXT.css"/>
+
+      <style type="text/css">
+
+        .flexbox-container{
+            display: flex;
+            height:450px;
+            flex-direction:row;
+            justify-content: space-between;}
+
+        .flexbox-item-1{
+            padding:0px 10px 10px 10px;
+            flex-grow:1;
+            background-color: lightgrey;}
+
+        .flexbox-item-2{
+            border:0px solid white;
+            flex-grow:1;
+            background-color:#C5B5AE;
+            padding:0px 10px 10px 10px; }
+
+        ul {
+        list-style-type: none;
+        font-size: 20px;
+        padding:0;
+        line-height:200%;
+        }
+      </style>
+    </head>
+<!--================================MENU=====================================-->
+    <body>
+      <div id="page-container">
+
+        <div id="header">
+          <h1>Chastidy's Dog Grooming</h1>
+        </div>
+
+        <div id="content">
+            <div id="navigation">
+
+                <h3>MENU</h3>
+                <ul>
+                    <li> <a class="selected" href="HomePage.html">Home</a></li>
+                    <li><a class="selected" href="ServicePage.html" target="_blank">Services</a></li>
+                    <li><a class="selected" href="ContactPage.html" target="_blank">Contact Us!</a></li>
+
+                </ul>
+            </div>
+<!--=========================================================================-->
+
+            <div id="main">
+                <div class="flexbox-container">
+                    <div class="flexbox-item-1">
+                        <h4 style="text-align:center;">SERVICES</h4>
+                        <ul>
+                            <li> Bath.................$$$ </li>
+                            <li> Nail Trim...........$$$ </li>
+                            <li> Hair Trim ...........$$</li>
+                            <li> Teeth Cleaning...$$$ </li>
+                        </ul>
+
+
+                    </div>
+
+                    <div class="flexbox-item-2">
+                        <h4 style="text-align:center;">TRY OUR</h4>
+                        <h4 style="text-align:center;">NEW HOME-MADE TREATS</h4>
+
+                        <p> Dozen Peanut Butter Cookies </p>
+                        <p> Dozen Peanut Butter Cookies </p>
+                        <p> Two Dozen Peanut Butter Cookies</p>
+                        <p> Two Dozen Peanut Butter Cookies</p>
+                        <p> Bacon Cookie </p>
+                        <p> Bacon Cookie </p>
+                        <p> Two Dozen Bacon Cookies </p>
+                        <p> Two Dozen Bacon Cookies </p>
+
+                    </div>
+            </div>
+        </div>
+      </div>
+    <div id="footer"> Chastidy Vasconez </div>
+    </body>
+</html>
